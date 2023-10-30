@@ -1,0 +1,26 @@
+[book]
+authors = ["Stefan Hagen"]
+language = "en"
+multilingual = false
+src = "."
+title = "example-python-starter"
+
+[preprocessor.embed]
+
+[build]
+builddir = "book"
+
+[output.html]
+default-theme = "coal"
+git-repository-url = "https://git.sr.ht/~sthagen/example-python-starter"
+git-repository-icon = "fa-code-fork"
+mathjax-support = true
+no-section-label = true
+preferred-dark-theme = "navy"
+site-url = "/docs/example-python-starter"
+
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = false
